@@ -1,0 +1,35 @@
+﻿{
+   "editor.tokenColorCustomizations": {
+      "textMateRules": [
+         {
+            "scope": "support.function.ahk2",
+            "settings": {
+               "foreground": "#56B7C3",
+               "fontStyle": "" //bold, italic, strikethrough, underline, ""
+            }
+         }, //object after object separated by commas
+         {
+            "scope": "storage.modifier.ahk2",
+            "settings": {
+               "foreground": "#bf7465",
+               "fontStyle": "italic"
+            }
+         },
+         {
+            "scope": [
+               "punctuation.separator.period",
+               "keyword.operator.varref.ahk",
+               "keyword.operator.assignment",
+               "keyword.operator.arithmetic",
+               "keyword.operator.comparison"
+            ],
+            "settings": {
+               "foreground": "#dc5579",
+               "fontStyle": "bold"
+            }
+         }
+      ]
+   },
+   "AutoHotkey2.CompleteFunctionParens": true,
+   "AutoHotkey2.SymbolFoldingFromOpenBrace": true
+}

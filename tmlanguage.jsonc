@@ -1,0 +1,5 @@
+//after line 1732; object_property.patterns
+{
+   "match": "(?<!\\.)(?!\\d)(\\w+)(?=\\.)",
+   "name": "variable.other.object.ahk2"
+}
