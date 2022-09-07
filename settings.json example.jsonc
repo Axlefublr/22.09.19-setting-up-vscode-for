@@ -1,35 +1,34 @@
-﻿{
+{
    "editor.tokenColorCustomizations": {
       "textMateRules": [
          {
-            "scope": "support.function.ahk2",
+            "scope": [
+               "keyword.operator.logical.ahk2",
+               "entity.name.function.ahk2"
+            ],
             "settings": {
                "foreground": "#56B7C3",
-               "fontStyle": "" //bold, italic, strikethrough, underline, ""
-            }
-         }, //object after object separated by commas
-         {
-            "scope": "storage.modifier.ahk2",
-            "settings": {
-               "foreground": "#bf7465",
-               "fontStyle": "italic"
+               "fontStyle": "" // "", bold, italic, strikethrough, underline
             }
          },
          {
-            "scope": [
-               "punctuation.separator.period",
-               "keyword.operator.varref.ahk",
-               "keyword.operator.assignment",
-               "keyword.operator.arithmetic",
-               "keyword.operator.comparison"
-            ],
+            "scope": ["string.quoted.ahk2"],
             "settings": {
-               "foreground": "#dc5579",
-               "fontStyle": "bold"
+               "foreground": "#56B7C3",
+               "fontStyle": "italian + bald + L + ratio" // to reiterate that this is example code, don't just go ahead and use it, think for yourself what changes you want to make, and if you even want to make any in the first place
             }
          }
       ]
    },
    "AutoHotkey2.CompleteFunctionParens": true,
-   "AutoHotkey2.SymbolFoldingFromOpenBrace": true
+   "AutoHotkey2.SymbolFoldingFromOpenBrace": true,
+   "AutoHotkey2.AutoLibInclude": "User and Standard",
+   "AutoHotkey2.Diagnostics.ClassStaticMemberCheck": true,
+   "AutoHotkey2.Diagnostics.ParamsCheck": true,
+   "AutoHotkey2.DisableV1Script": true,
+   "AutoHotkey2.InterpreterPath": "C:\\Program Files\\Autohotkey\\v2.0-beta.7\\AutoHotkey64.exe",
+   "AutoHotkey2.FormatOptions": {
+      "indent_string": "   ",
+      "keep_array_indentation": true
+   }
 }
