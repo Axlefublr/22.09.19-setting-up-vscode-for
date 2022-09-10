@@ -23,10 +23,8 @@
    "AutoHotkey2.CompleteFunctionParens": true,
    "AutoHotkey2.SymbolFoldingFromOpenBrace": true,
    "AutoHotkey2.AutoLibInclude": "User and Standard",
-   "AutoHotkey2.Diagnostics.ClassStaticMemberCheck": true,
    "AutoHotkey2.Diagnostics.ParamsCheck": true,
    "AutoHotkey2.DisableV1Script": true,
-   "AutoHotkey2.InterpreterPath": "C:\\Program Files\\Autohotkey\\v2.0-beta.7\\AutoHotkey64.exe",
    "AutoHotkey2.FormatOptions": {
       "indent_string": "   ",
       "keep_array_indentation": true
